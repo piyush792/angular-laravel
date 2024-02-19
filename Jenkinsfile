@@ -22,7 +22,7 @@ node(){
     }
 
     stage('Package Build') {
-        sh "tar -zcvf bundle.tar.gz dist/my-first-project/"
+        sh "tar -zcvf bundle.tar.gz dist/frontend/"
     }
 
     stage('Artifacts Creation') {
